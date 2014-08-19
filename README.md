@@ -1,6 +1,6 @@
 # mod\_timestamp
 ## Summary
-This lib provides a way to print time/date-stamped messages to the console.  It
+This lib provides a way to print time-stamped messages to the console.  It
 uses clock\_gettime() to find the time elapsed from a start\_time.  This time
 is further processed into a HH:MM:SS.nnnnnnnnn (nanoseconds) format before combining it
 with a message and printing it to stdout.
